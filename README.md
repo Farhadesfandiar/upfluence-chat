@@ -1,6 +1,6 @@
 
  
-Multi-Client Websocket Assignment
+Multi-Client Websocket App
 
 Package dependencie:
 - Go 
