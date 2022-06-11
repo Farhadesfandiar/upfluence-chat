@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"ws/chat/pkg/websocket"
+	"websocket-chat/chat/pkg/websocket"
 )
 
 func serveWs(pool *websocket.Pool, w http.ResponseWriter, r *http.Request) {
@@ -33,7 +33,7 @@ func setupRoutes() {
 }
 
 func main() {
-	fmt.Println("Multi-Client Websocket Assignment v0.01")
+	fmt.Println("Multi-Client Websocket app v0.01")
 	setupRoutes()
 	http.ListenAndServe(":9100", nil)
 }
