@@ -1,4 +1,4 @@
-module ws/chat
+module websocket-chat/chat
 
 go 1.18
 
